@@ -13,4 +13,4 @@ Test markdown
 
 `set a = 1($a)`
 
-this ``text`` is wrong
+this ~~text~~ is wrong
