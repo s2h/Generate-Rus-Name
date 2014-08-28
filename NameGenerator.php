@@ -32,4 +32,4 @@ class NameGenerator {
 }
 
 
-echo NameGenerator::generate();
+echo NameGenerator::generate(0,";");
