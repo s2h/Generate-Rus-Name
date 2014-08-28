@@ -3,14 +3,14 @@ Generate-Rus-Name
 
 Generates russian names
 
-Test markdown
+Usage
 =====
 
-*bold*
+You can use
+```php
+echo NameGenerator::generate(0,";");
+```
 
+and get name.
 
-**hard bold**
-
-`set a = 1($a)`
-
-this ~~text~~ is wrong
+First parameter is gender. 0 - for females, 1 - for males, null - for both. Second is delimiter - you can use "space", for example.

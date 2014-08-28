@@ -30,6 +30,3 @@ class NameGenerator {
             $female_patronymic[rand(0, count($female_patronymic) - 1)];
     }
 }
-
-
-echo NameGenerator::generate(0,";");
